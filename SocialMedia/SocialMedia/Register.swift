@@ -10,7 +10,7 @@ import UIKit
 
 class Register: UIViewController {
 
-    //User Interface object for fields 
+    //User Interface object for fields
     @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var emailTxt: UITextField!
@@ -21,6 +21,7 @@ class Register: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         
         
         
