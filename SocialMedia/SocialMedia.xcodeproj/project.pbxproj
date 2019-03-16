@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E8E4D1A223C5B1D00EDE269 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E4D18223C5B1B00EDE269 /* Logo.png */; };
+		4E8E4D1B223C5B1D00EDE269 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E4D19223C5B1C00EDE269 /* background.jpg */; };
 		4EB61755222F781C005D8C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB61754222F781C005D8C23 /* AppDelegate.swift */; };
 		4EB61757222F781C005D8C23 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB61756222F781C005D8C23 /* Register.swift */; };
 		4EB6175A222F781C005D8C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB61758222F781C005D8C23 /* Main.storyboard */; };
 		4EB6175C222F781D005D8C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB6175B222F781D005D8C23 /* Assets.xcassets */; };
 		4EB6175F222F781D005D8C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB6175D222F781D005D8C23 /* LaunchScreen.storyboard */; };
-		4EB61767222F855A005D8C23 /* RegistrationBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EB61766222F855A005D8C23 /* RegistrationBackground.jpg */; };
 		4EB61769222F8ABF005D8C23 /* whistleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB61768222F8ABF005D8C23 /* whistleLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E8E4D18223C5B1B00EDE269 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		4E8E4D19223C5B1C00EDE269 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		4EB61751222F781C005D8C23 /* SocialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB61754222F781C005D8C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB61756222F781C005D8C23 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
@@ -24,7 +27,6 @@
 		4EB6175B222F781D005D8C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EB6175E222F781D005D8C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EB61760222F781D005D8C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EB61766222F855A005D8C23 /* RegistrationBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RegistrationBackground.jpg; sourceTree = "<group>"; };
 		4EB61768222F8ABF005D8C23 /* whistleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whistleLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,11 +60,12 @@
 		4EB61753222F781C005D8C23 /* SocialMedia */ = {
 			isa = PBXGroup;
 			children = (
+				4E8E4D18223C5B1B00EDE269 /* Logo.png */,
+				4E8E4D19223C5B1C00EDE269 /* background.jpg */,
 				4EB61754222F781C005D8C23 /* AppDelegate.swift */,
 				4EB61756222F781C005D8C23 /* Register.swift */,
 				4EB61758222F781C005D8C23 /* Main.storyboard */,
 				4EB61768222F8ABF005D8C23 /* whistleLogo.png */,
-				4EB61766222F855A005D8C23 /* RegistrationBackground.jpg */,
 				4EB6175B222F781D005D8C23 /* Assets.xcassets */,
 				4EB6175D222F781D005D8C23 /* LaunchScreen.storyboard */,
 				4EB61760222F781D005D8C23 /* Info.plist */,
@@ -128,10 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB61767222F855A005D8C23 /* RegistrationBackground.jpg in Resources */,
 				4EB6175F222F781D005D8C23 /* LaunchScreen.storyboard in Resources */,
+				4E8E4D1B223C5B1D00EDE269 /* background.jpg in Resources */,
 				4EB6175C222F781D005D8C23 /* Assets.xcassets in Resources */,
 				4EB61769222F8ABF005D8C23 /* whistleLogo.png in Resources */,
+				4E8E4D1A223C5B1D00EDE269 /* Logo.png in Resources */,
 				4EB6175A222F781C005D8C23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

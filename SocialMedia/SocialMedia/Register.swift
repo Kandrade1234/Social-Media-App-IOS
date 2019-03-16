@@ -7,14 +7,8 @@
 //
 
 import UIKit
-
-
-
-//
-//
-//
 //registration interface
-class Register: UIViewController {
+class Register: UIViewController, UITextFieldDelegate {
 
     //User Interface object for fields
     @IBOutlet weak var usernameTxt: UITextField!
@@ -23,19 +17,32 @@ class Register: UIViewController {
     @IBOutlet weak var firstnameTxt: UITextField!
     @IBOutlet weak var lastnameTxt: UITextField!
     
+    
     //first function that loads up
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        
+        self.usernameTxt.delegate = self as? UITextFieldDelegate;
+       
         
         
         
     }
+    
+    //Hiding Keyboard when user touches outside keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    //Presses return key
+    func textFieldShouldReturn(_ usernameTxt: UITextField)->Bool{
+        usernameTxt.resignFirstResponder()
+       
+
+        return (true)
+    }
     //clicked on register
     @IBAction func register_click(_ sender: Any) {
         //empty text
+        /*
         if usernameTxt.text!.isEmpty || passwordTxt.text!.isEmpty || emailTxt.text!.isEmpty || firstnameTxt.text!.isEmpty || lastnameTxt.text!.isEmpty
         {
             //red on inputs
@@ -50,8 +57,9 @@ class Register: UIViewController {
             //create new user in MYSQL
             
         }
+ */
     }
-    
+ 
 
 }
 
