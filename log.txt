@@ -1,0 +1,147 @@
+commit 8972e4d275548a0c0d00e1259c91d8594120a360
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Fri Mar 15 20:55:28 2019 -0400
+
+    added a second view
+    q
+
+ SocialMedia/SocialMedia.xcodeproj/project.pbxproj  |  12 +-
+ .../UserInterfaceState.xcuserstate                 | Bin 28405 -> 29760 bytes
+ .../xcshareddata/xcschemes/SocialMedia.xcscheme    |  91 ++++++++++
+ .../xcdebugger/Breakpoints_v2.xcbkptlist           |  39 ++++
+ .../xcschemes/xcschememanagement.plist             |   8 +
+ SocialMedia/SocialMedia/Base.lproj/Main.storyboard | 201 ++++++++++++---------
+ SocialMedia/SocialMedia/Logo.png                   | Bin 0 -> 213277 bytes
+ SocialMedia/SocialMedia/Register.swift             |  30 +--
+ SocialMedia/SocialMedia/background.jpg             | Bin 0 -> 32367 bytes
+ 9 files changed, 284 insertions(+), 97 deletions(-)
+
+commit bbc0d3bf1347b203ff0c6decdb9c7bb88b50ea70
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Thu Mar 14 23:48:00 2019 -0400
+
+     changes
+
+ .../UserInterfaceState.xcuserstate                  | Bin 28405 -> 28405 bytes
+ SocialMedia/SocialMedia/Register.swift              |   1 +
+ 2 files changed, 1 insertion(+)
+
+commit c760b7cde6a2ce68ed8f72ca6ccfb008abdc88e2
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Wed Mar 13 23:43:13 2019 -0400
+
+    changes
+
+ .../UserInterfaceState.xcuserstate                  | Bin 28406 -> 28405 bytes
+ SocialMedia/SocialMedia/Register.swift              |   1 +
+ 2 files changed, 1 insertion(+)
+
+commit 58dbb98d589f3cec933ed591c0b7a32902718edd
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Tue Mar 12 23:38:58 2019 -0400
+
+    changes
+
+ .../UserInterfaceState.xcuserstate                  | Bin 28406 -> 28406 bytes
+ SocialMedia/SocialMedia/Register.swift              |   2 ++
+ 2 files changed, 2 insertions(+)
+
+commit 1a1dcd526e59a160fc97889f568ac120f68ac3b9
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Mon Mar 11 23:40:15 2019 -0400
+
+    changes
+
+ .../UserInterfaceState.xcuserstate                  | Bin 28432 -> 28406 bytes
+ SocialMedia/SocialMedia/Register.swift              |   2 ++
+ SocialMediaPHP/.idea/workspace.xml                  |   5 ++---
+ 3 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 4e4cd3ac7b76dc1222308b56f87cdccf6c8837d6
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Sun Mar 10 22:10:20 2019 -0400
+
+    having some issues creating database...attempt for database
+
+ .DS_Store                                          | Bin 0 -> 6148 bytes
+ .idea/Social-Media-App-IOS.iml                     |   8 +
+ .idea/encodings.xml                                |   4 +
+ .idea/misc.xml                                     |   6 +
+ .idea/modules.xml                                  |   8 +
+ .idea/vcs.xml                                      |   6 +
+ .idea/workspace.xml                                | 133 +++++++++++++++++
+ SocialMedia/.DS_Store                              | Bin 0 -> 6148 bytes
+ .../UserInterfaceState.xcuserstate                 | Bin 28111 -> 28432 bytes
+ SocialMediaPHP/.idea/SocialMediaPHP.iml            |   8 +
+ SocialMediaPHP/.idea/encodings.xml                 |   4 +
+ SocialMediaPHP/.idea/misc.xml                      |   6 +
+ SocialMediaPHP/.idea/modules.xml                   |   8 +
+ SocialMediaPHP/.idea/vcs.xml                       |   6 +
+ SocialMediaPHP/.idea/workspace.xml                 | 163 +++++++++++++++++++++
+ SocialMediaPHP/register.php                        |  27 ++++
+ SocialMediaPHP/secure/access.php                   |  60 ++++++++
+ 17 files changed, 447 insertions(+)
+
+commit 5d9b7894b741a2754e6df20f22df30d1d58c6813
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Sat Mar 9 23:44:17 2019 -0500
+
+    changes
+
+ .../UserInterfaceState.xcuserstate                  | Bin 28093 -> 28111 bytes
+ SocialMedia/SocialMedia/Register.swift              |   3 ++-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit b2e0334f3d3aacc71a0f2f3a8038c7019db06cfb
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Fri Mar 8 23:07:48 2019 -0500
+
+    modified
+
+ .../UserInterfaceState.xcuserstate                  | Bin 26345 -> 28093 bytes
+ SocialMedia/SocialMedia/Register.swift              |   2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+commit 14a4ecb79420b9daf4e0e351d202f5c778718a80
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Wed Mar 6 00:25:23 2019 -0500
+
+    added more designs to registration page and a bit of style
+
+ SocialMedia/SocialMedia.xcodeproj/project.pbxproj  |  16 ++-
+ .../UserInterfaceState.xcuserstate                 | Bin 11019 -> 26345 bytes
+ SocialMedia/SocialMedia/Base.lproj/Main.storyboard | 130 ++++++++++++++++-----
+ SocialMedia/SocialMedia/Register.swift             |  50 ++++++++
+ SocialMedia/SocialMedia/RegistrationBackground.jpg | Bin 0 -> 622940 bytes
+ SocialMedia/SocialMedia/ViewController.swift       |  20 ----
+ SocialMedia/SocialMedia/whistleLogo.png            | Bin 0 -> 20907 bytes
+ 7 files changed, 160 insertions(+), 56 deletions(-)
+
+commit ccfde75d01ae07366b960be5d4de09b76b23013d
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Tue Mar 5 22:54:48 2019 -0500
+
+    Added a simple login interface
+
+ SocialMedia/SocialMedia.xcodeproj/project.pbxproj  | 341 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +
+ .../UserInterfaceState.xcuserstate                 | Bin 0 -> 11019 bytes
+ .../xcschemes/xcschememanagement.plist             |  14 +
+ SocialMedia/SocialMedia/AppDelegate.swift          |  46 +++
+ .../AppIcon.appiconset/Contents.json               |  98 ++++++
+ .../SocialMedia/Assets.xcassets/Contents.json      |   6 +
+ .../SocialMedia/Base.lproj/LaunchScreen.storyboard |  25 ++
+ SocialMedia/SocialMedia/Base.lproj/Main.storyboard |  89 ++++++
+ SocialMedia/SocialMedia/Info.plist                 |  45 +++
+ SocialMedia/SocialMedia/ViewController.swift       |  20 ++
+ 12 files changed, 699 insertions(+)
+
+commit d0f7c2920ccfa825bdb1d64ca75886c646b685d3
+Author: Kevin Andrade <35554779+Kandrade1234@users.noreply.github.com>
+Date:   Tue Mar 5 22:29:40 2019 -0500
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
